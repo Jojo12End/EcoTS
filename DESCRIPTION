@@ -1,9 +1,9 @@
 Package: EcoTS
 Title: Automatisation Econometrie des Series Temporelles
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: person("Misa", "Andriantseheno", email = "misa@example.com", role = c("aut", "cre"))
 Description: Execute automatiquement la strategie complete d'analyse des series temporelles (ADF sequentiel, KPSS, bulles SADF/GSADF, ARMA, VAR, Granger, IRF, Projections Locales, Johansen/VECM) au seuil de 5% et fournit un aide-memoire syntaxique interactif.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Imports: stats, utils, graphics, urca, forecast, lmtest, tseries, FinTS, moments, vars, lpirfs, tsDyn, rstudioapi
-Suggests: exuber
+Suggests: exuber, readxl, Metrics
